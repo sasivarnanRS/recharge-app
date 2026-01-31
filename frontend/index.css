@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%), 
+              url('/assets/download.jpeg') center/cover fixed;
+  min-height: 100vh;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.jio-gradient {
+  background: linear-gradient(135deg, #0057e7 0%, #003d99 100%);
+}
+
+.airtel-gradient {
+  background: linear-gradient(135deg, #e40000 0%, #b30000 100%);
+}
+
+.vi-gradient {
+  background: linear-gradient(135deg, #fcb415 0%, #e09900 100%);
+}
+
+.bsnl-gradient {
+  background: linear-gradient(135deg, #004a80 0%, #003366 100%);
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}

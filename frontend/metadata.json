@@ -1,0 +1,5 @@
+{
+  "name": "RechargeNow",
+  "description": "A modern mobile recharge application with operator detection, secure payments, and admin dashboard.",
+  "requestFramePermissions": []
+}
